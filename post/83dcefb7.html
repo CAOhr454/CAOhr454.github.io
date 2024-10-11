@@ -164,7 +164,7 @@ btf.addGlobalFn('pjaxSend', () => {
   const initWaline = (Fn) => {
     const waline = Fn(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'https://comment-iota-azure.vercel.app/',
+      serverURL: 'https://netlifywalines.netlify.app/.netlify/functions/comment',
       pageview: false,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
